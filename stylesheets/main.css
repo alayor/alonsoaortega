@@ -2,20 +2,34 @@ header {
     margin-bottom: 5em;
 }
 
-#aboutText {
-    max-width: 700px;
-    margin: auto;
-    text-align: justify;
-    font-size: 20px;
+#home-container {
+    max-width: 800px;
+    margin: auto auto 5em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 3em;
+    /* border: solid 1px #cccccc; */
+    border-radius: 20px;
 }
 
-#me {
-    margin: auto;
-    max-width: 200px;
-    margin-bottom: 1em;
+#aboutText {
+    text-align: justify;
+    font-size: 20px;
+    line-height: normal;
+    margin-bottom: 2em;
+    margin-top: 1em;
 }
 
 #me img {
     width: 170px;
     border-radius: 100px;
+}
+
+#to-portfolio {
+    align-self: flex-end;
+}
+
+footer {
+    text-align: center;
 }
