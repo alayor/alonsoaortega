@@ -1,0 +1,10 @@
+header {
+    margin-bottom: 5em;
+}
+
+#aboutText {
+    max-width: 900px;
+    margin: auto;
+    text-align: justify;
+    font-size: 20px;
+}
