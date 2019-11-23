@@ -3,8 +3,19 @@ header {
 }
 
 #aboutText {
-    max-width: 900px;
+    max-width: 700px;
     margin: auto;
     text-align: justify;
     font-size: 20px;
+}
+
+#me {
+    margin: auto;
+    max-width: 200px;
+    margin-bottom: 1em;
+}
+
+#me img {
+    width: 170px;
+    border-radius: 100px;
 }
