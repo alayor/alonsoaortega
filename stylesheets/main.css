@@ -10,7 +10,42 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 1em 3em;
+    border: 2px solid black;
     border-radius: 20px;
+}
+
+#skills-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    width: 14em;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    padding: 0.5em;
+}
+
+.skill-header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #cccccc;
+    font-size: large;
+    padding-left: 1em;
+}
+
+.skill-body {
+    margin-top: 0.5em;
+}
+
+ul {
+    padding: 0 0 0 1em;
+    /* list-style-type: none; */
+    margin-bottom: 0;
 }
 
 #aboutText {
