@@ -5,7 +5,7 @@ window.onload = function() {
     e.preventDefault();
     $(".skills-container").addClass("hide");
     $(`#skill-container-${id}`).removeClass("hide");
+    $(".page-item").removeClass("disabled");
     $(this).addClass("disabled");
-    $(".page-tiem").removeClass("disabled");
   });
 };
