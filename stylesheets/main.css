@@ -18,7 +18,7 @@ h2 {
     border-radius: 20px;
 }
 
-#skills-container {
+.skills-container {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -91,4 +91,17 @@ ul {
 
 footer {
     text-align: center;
+}
+
+#skills-nav {
+    margin-top: 2em;
+}
+
+#skills-nav ul li a {
+    background-color: #e9ecef;
+    border: 1px solid #cccccc;
+}
+
+.hide {
+    display: none;
 }
