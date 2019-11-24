@@ -117,6 +117,7 @@ ul {
 }
 
 .portfolio-container .card-body {
+    padding-top: 0.5em;
     background-color: #e9ecef;
     font-size: small;
 }
