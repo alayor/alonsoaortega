@@ -50,65 +50,69 @@
       <div class="jumbotron container">
         <h2>Portfolio</h2>
         <div class="portfolio-container">
-          <div class="portfolio-item">
-            <div class="portfolio-item-header">
-              <div>
-                <a
-                  class="btn btn-sm btn-light"
-                  data-toggle="collapse"
-                  href="#minisuper"
-                  role="button"
-                  aria-expanded="false"
-                  aria-controls="minisuper"
-                >
-                  Minisuper
-                </a>
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-light"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Minisuper
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse card-body"
+                aria-labelledby="headingOne"
+                data-parent="#accordion"
+              >
+                Minisuper is a disruptive technology solution focused on making
+                efficient purchases of basic foods like tortillas, fruits,
+                canned goods, soft drinks, etc. <br />With our mobile app,
+                consumers order a product whose order is assigned to the best
+                ranking deliverer based on their proximity, reputation, and
+                offered price. Minisuper charges an access fee to deliverers,
+                which is calculated based on their weekly sales.
+                <br />Technologies: ES6, React, React Native, Koa, Knex,
+                Docker, Socket.IO, Cucumber BDD.
               </div>
             </div>
-            <div class="portfolio-body text-dark">
-              <div class="collapse" id="minisuper">
-                <div class="card card-body">
-                  Minisuper is a disruptive technology solution focused on
-                  making efficient purchases of basic foods like tortillas,
-                  fruits, canned goods, soft drinks, etc. <br />
-                  With our mobile app, consumers order a product whose order is
-                  assigned to the best ranking deliverer based on their
-                  proximity, reputation, and offered price. Minisuper charges an
-                  access fee to deliverers, which is calculated based on their
-                  weekly sales. <br />Technologies used: ES6, React, React
-                  Native, Koa, Knex, Docker, Socket.IO, Cucumber BDD.
-                </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-light"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="true"
+                    aria-controls="collapseTwo"
+                  >
+                    Monedero Bingo
+                  </button>
+                </h5>
               </div>
-            </div>
-          </div>
-          <div class="portfolio-item">
-            <div class="portfolio-item-header">
-              <div>
-                <a
-                  class="btn btn-sm btn-light"
-                  data-toggle="collapse"
-                  href="#monedero"
-                  role="button"
-                  aria-expanded="false"
-                  aria-controls="monedero"
-                >
-                  Monedero Bingo
-                </a>
-              </div>
-            </div>
-            <div class="portfolio-body text-dark">
-              <div class="collapse" id="monedero">
-                <div class="card card-body">
-                  Monedero Bingo is a SaaS solution that allows companies to
-                  give loyalty points to their customers and clients using their
-                  phone number. Customers can redeem their points to get
-                  promotions and giveaways. <br>It provides a robust REST API
-                  service intended for internal use but also aimed at external
-                  clients. It also has a BDD module that specifies the system
-                  features using Cucumber Gherkin syntax and validates them by
-                  running functional E2E tests. <br>Technologies: Spring IoC, Java,
-                  EasyMock, JDBC, PostgreSQL, Cucumber.
-                </div>
+
+              <div
+                id="collapseTwo"
+                class="collapse card-body"
+                aria-labelledby="headingTwo"
+                data-parent="#accordion"
+              >
+                Monedero Bingo is a SaaS solution that allows companies to give
+                loyalty points to their customers and clients using their phone
+                number. Customers can redeem their points to get promotions and
+                giveaways. <br>It provides a robust REST API service intended for
+                internal use but also aimed at external clients. It also has a
+                BDD module that specifies the system features using Cucumber
+                Gherkin syntax and validates them by running functional E2E
+                tests. <br>Technologies: Spring IoC, Java, EasyMock, JDBC,
+                PostgreSQL, Cucumber.
               </div>
             </div>
           </div>
