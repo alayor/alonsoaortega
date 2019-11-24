@@ -38,13 +38,18 @@ header {
     padding-left: 1em;
 }
 
+.skill-header img {
+    display: inline-block;
+    justify-self: flex-end;
+    margin-left: auto;
+}
+
 .skill-body {
     margin-top: 0.5em;
 }
 
 ul {
     padding: 0 0 0 1em;
-    /* list-style-type: none; */
     margin-bottom: 0;
 }
 
