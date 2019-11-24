@@ -26,7 +26,11 @@ header {
     border-radius: 100px;
 }
 
-#to-skills {
+.previous-button {
+    align-self: flex-start;
+}
+
+.next-button {
     align-self: flex-end;
 }
 
