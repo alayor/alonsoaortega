@@ -10,8 +10,8 @@ window.onload = function() {
   if (document.forms && document.forms.length) {
     document.forms[0].onsubmit = validateForm;
   }
-  if (window.location.href.includes('alayor.com')) {
-    $("#not-published-site-alert").addClass("hide");
+  if (!window.location.href.includes('alayor.com')) {
+    $("#not-published-site-alert").removeClass("hide");
   }
 };
 
