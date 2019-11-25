@@ -25,16 +25,9 @@ function validateForm() {
 function validateEmail() {
   if (document.getElementById("inputEmail").value === "") {
     $("#errorEmail").show();
-    return false;
-  } else {
-    $("#errorEmail").hide();
-    return true;
-  }
-}
-
-function validateEmail() {
-  if (document.getElementById("inputEmail").value === "") {
-    $("#errorEmail").show();
+    setTimeout(function() {
+      $("#errorEmail").hide();
+    }, 5000);
     return false;
   } else {
     $("#errorEmail").hide();
@@ -43,9 +36,11 @@ function validateEmail() {
 }
 
 function validateSubject() {
-  debugger
-  if (document.getElementById("subject").value.trim().length < 4 ) {
+  if (document.getElementById("subject").value.trim().length < 4) {
     $("#errorSubject").show();
+    setTimeout(function() {
+      $("#errorSubject").hide();
+    }, 5000);
     return false;
   } else {
     $("#errorSubject").hide();

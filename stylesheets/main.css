@@ -132,11 +132,6 @@ ul {
     font-size: large;
 }
 
-.contact {
-    width: 100%;
-    margin-top: 1em;
-}
-
 .biography {
     display: flex;
     width: 100%;
@@ -151,6 +146,23 @@ ul {
 
 .biography-item {
     margin-bottom: 1em;
+}
+
+.contact {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.invalid-feedback {
+    padding: 0.2em;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    max-height: 4em;
 }
 
 footer {
