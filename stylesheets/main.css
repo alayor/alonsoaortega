@@ -137,6 +137,11 @@ ul {
     margin-top: 1em;
 }
 
+.biography {
+    width: 100%;
+    margin-top: 1em;
+}
+
 footer {
     text-align: center;
 }
@@ -144,9 +149,3 @@ footer {
 .hide {
     display: none;
 }
-
-/* @media (max-width: 600px) {
-    .container {
-      width: 80%;
-    }
-  } */
