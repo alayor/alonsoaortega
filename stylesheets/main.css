@@ -6,6 +6,12 @@ h2 {
     margin-bottom: 0;
 }
 
+.alert {
+    position: relative;
+    margin-top: -1.5em;
+    padding: 0.5em;
+}
+
 .container {
     max-width: 800px;
     min-height: 500px;

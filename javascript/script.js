@@ -7,7 +7,12 @@ window.onload = function() {
     $(".page-item").removeClass("disabled");
     $(this).addClass("disabled");
   });
-  document.forms[0].onsubmit = validateForm;
+  if (document.forms && document.forms.length) {
+    document.forms[0].onsubmit = validateForm;
+  }
+  if (window.location.href.includes('alayor.com')) {
+    $("#not-published-site-alert").addClass("hide");
+  }
 };
 
 function validateForm() {
