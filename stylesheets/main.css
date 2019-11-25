@@ -173,6 +173,16 @@ ul {
     color: black;
 }
 
+#send-email-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#send-email-button {
+    margin-right: 1em;
+}
+
 footer {
     text-align: center;
 }
