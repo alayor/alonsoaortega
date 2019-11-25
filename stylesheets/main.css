@@ -16,6 +16,7 @@ h2 {
     padding: 1em 3em;
     border: 2px solid black;
     border-radius: 20px;
+    margin-bottom: 1em;
 }
 
 ul {
@@ -128,6 +129,11 @@ ul {
     border: none;
     background-color: #e9ecef;
     font-size: large;
+}
+
+.contact {
+    width: 100%;
+    margin-top: 1em;
 }
 
 footer {
