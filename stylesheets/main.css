@@ -144,6 +144,15 @@ ul {
     justify-content: space-between;
 }
 
+.biography-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.biography-item {
+    margin-bottom: 1em;
+}
+
 footer {
     text-align: center;
 }
