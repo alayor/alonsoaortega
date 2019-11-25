@@ -16,6 +16,9 @@ function validateForm() {
   if (!validateEmail()) {
     returnValue = false;
   }
+  if (!validateSubject()) {
+    returnValue = false;
+  }
   return returnValue;
 }
 
@@ -25,6 +28,27 @@ function validateEmail() {
     return false;
   } else {
     $("#errorEmail").hide();
+    return true;
+  }
+}
+
+function validateEmail() {
+  if (document.getElementById("inputEmail").value === "") {
+    $("#errorEmail").show();
+    return false;
+  } else {
+    $("#errorEmail").hide();
+    return true;
+  }
+}
+
+function validateSubject() {
+  debugger
+  if (document.getElementById("subject").value.trim().length < 4 ) {
+    $("#errorSubject").show();
+    return false;
+  } else {
+    $("#errorSubject").hide();
     return true;
   }
 }
