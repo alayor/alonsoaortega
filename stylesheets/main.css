@@ -159,10 +159,18 @@ ul {
 
 .contact-info {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    margin-bottom: 1em;
-    max-height: 4em;
+    margin-bottom: 2em;
+    justify-content: space-around;
+}
+
+.contact-item {
+    margin: 0 1em;
+    min-width: 10em;
+}
+
+.contact-info a {
+    color: black;
 }
 
 footer {
