@@ -196,3 +196,17 @@ footer {
 .hide {
     display: none;
 }
+
+@media (max-width: 375px) {
+    #aboutText {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    .biography {
+        flex-direction: column;
+    }
+}
