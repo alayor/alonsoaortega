@@ -118,6 +118,10 @@ ul {
 }
 
 .portfolio-container .card-header {
+    text-align: center;
+}
+
+.portfolio-container .card-header {
     border-bottom: none;
     background-color: #e9ecef;
     padding-bottom: 0;
@@ -132,10 +136,14 @@ ul {
 
 .portfolio-container .btn-light {
     padding: 0 2em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0;
     border: none;
     background-color: #e9ecef;
     font-size: large;
+}
+
+.arrow-down {
+    font-size: x-small;
 }
 
 .biography {
@@ -208,5 +216,9 @@ footer {
 
     .biography {
         flex-direction: column;
+    }
+
+    .portfolio-container .btn-light {
+        font-size: small;
     }
 }
