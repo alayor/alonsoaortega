@@ -139,11 +139,27 @@ ul {
     margin-bottom: 0;
     border: none;
     background-color: #e9ecef;
-    font-size: large;
 }
 
 .arrow-down {
     font-size: x-small;
+}
+
+.experience-position {
+    font-weight: 500;
+}
+
+.experience-company-name {
+    font-style: italic;
+}
+
+.experience-since {
+    font-size: small;
+}
+
+.experience-item-link {
+    display: inline-block;
+    margin-top: 1em;
 }
 
 .biography {
@@ -219,6 +235,18 @@ footer {
     }
 
     .portfolio-container .btn-light {
-        font-size: small;
+        font-size: xx-small;
+    }
+
+    .experience-since {
+        font-size: xx-small;
+    }
+
+    .card-body ul li {
+        font-size: xx-small;
+    }
+
+    .experience-item-link {
+        font-size: xx-small;
     }
 }
