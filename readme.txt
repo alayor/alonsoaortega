@@ -7,6 +7,9 @@
 * Jumbotron
     * https://getbootstrap.com/docs/4.0/components/jumbotron/
     * At the start of every page's main section below the alert
+* Alert
+    * https://getbootstrap.com/docs/4.0/components/alerts/
+    * At the top of every page's main opening tag
 * Button tags
     * https://getbootstrap.com/docs/4.0/components/buttons/#button-tags
     * At the bottom of every page's jumbotron container.
