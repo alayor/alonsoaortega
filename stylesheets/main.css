@@ -44,6 +44,11 @@ ul {
     width: 120px;
 }
 
+.btn-info {
+    background-color: rgb(39, 44, 49);
+    border-color: rgb(39, 44, 49);
+}
+
 .buttons {
     width: 100%;
     justify-self: flex-end;
